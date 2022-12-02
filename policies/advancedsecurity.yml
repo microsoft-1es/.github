@@ -6,3 +6,6 @@ configuration:
     advancedSecurity:
         secretScanning: true
         secretScanningPushProtection: true
+        enablePrCheck: true
+        allowGhasVulnerability: []
+        failOnSeverity: Low
